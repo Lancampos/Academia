@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" 
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar-container">
+            <nav>
+                <a href="#">
+                   <img src="img/academia.logo.webp" alt="Academia" class="logo" /> 
+                </a>
+                <ul class="navbar-items">
+                   <li>
+                        <a href="#">Home</a>
+                   </li> 
+                   <li>
+                        <a href="#">Preços</a>
+                   </li> 
+                   <li>
+                        <a href="#">Contatos</a>
+                   </li>
+                   <li>
+                        <a href="#" class="default-btn">Entrar</a>
+                   </li>  
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <div class="main-banner">
+                <h1>Academia</h1>
+                <p>Transforme seu corpo, fortaleça sua mente.
+                    Comece hoje a sua jornada na Academia!
+                </p>
+            </div>
+            <section class="services-container">
+                <ul>
+                    <li>
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Segurança</h3>
+                        <p>
+                          Na nossa academia, a segurança dos nossos membros é a nossa principal prioridade. 
+                          Garantimos que todos os equipamentos estejam sempre em perfeitas condições e realizamos 
+                          manutenção regular para evitar qualquer problema. Se você é novo aqui, 
+                          nossos treinadores estão prontos para orientá-lo sobre o uso correto dos aparelhos, 
+                          garantindo que você maximize seus resultados sem correr riscos.
+                        </p>
+                    </li>
+                    <li>
+                        <i class="fas fa-rocket"></i>
+                        <h3>Performece</h3>
+                        <p>
+                            Nossos treinadores qualificados estão aqui para fornecer orientação personalizada, 
+                            ajudando você a criar e seguir um plano de treino adaptado às suas metas e ao seu nível de fitness.
+                            Eles também estão disponíveis para ajustar suas técnicas e 
+                            garantir que você esteja treinando de forma eficiente e segura.
+                        </p>
+                    </li>
+                    <li>
+                        <i class="fas fa-comments"></i>
+                        <h3>Suporte</h3>
+                        <p>
+                            Na nossa academia, entendemos que uma comunicação eficaz é essencial para uma 
+                            experiência de treino positiva e produtiva. Por isso, oferecemos um suporte de comunicação completo 
+                            para garantir que você sempre tenha as informações e o suporte necessários.
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <section class="pricing-container">
+                <h2>Planos e Preços</h2>
+                <p>Selecione o Plano que atende suas nescessidades </p>
+                <div class="plans-container">
+                    <div class="plan">
+                        <ul>
+                            <li class="price basic">60/Mês</li>
+                            <li class="plan-name">Básic</li>
+                            <li>Área de Musculação </li>
+                            <li>Acesso livre nos fins de semana</li>
+                            <li class="plan-btn basic">Saber mais</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <ul>
+                            <li class="price recommended">80/Mês</li>
+                            <li class="plan-name">Gold</li>
+                            <li>Área de Musculação </li>
+                            <li>Acesso livre nos fins de semana</li>
+                            <li>Acesso a aulas de ginástica </li>
+                            <li>Nutricionista</li>
+                            <li class="plan-btn recommended">Saber mais</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <ul>
+                            <li class="price platium">100/Mês</li>
+                            <li class="plan-name">Platium</li>
+                            <li>Área de Musculação </li>
+                            <li>Acesso livre nos fins de semana</li>
+                            <li>Nutricionista</li>
+                            <li>Acesso a aulas de ginástica</li>
+                            <li>FITDANCE</li>
+                            <li>Estacionamento Preferêncial</li>
+                            <li>Fisioterapeuta para duvidas gerais</li>
+                            <li class="plan-btn platium">Saber mais</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+            <section class="contact-container">
+                <h2>Matricule-se Agora!</h2>
+                <p>Em até 4 horas o suporte entra em contato</p>
+                <form>
+                    <input type="text" name="name" id="name" placeholder="Seu nome"/>
+                    <input type="email" name="emaiil" id="email" placeholder="Digite seu e-mail">
+                    <div>
+                        <label for="plan-contact">Escolha seu Plano:</label>
+                        <input type="text" list="planss" name="plan-contact">
+            
+                        <datalist id="planss">
+                            <option value="Basic">Basic</option>
+                            <option value="Gold">Gold</option>
+                            <option value="Platium">Platium</option>
+                            
+                        </datalist>
+                    </div>
+                    <input class="btn-submit" type="submit" value="Enviar">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Academia @ 2024</p>
+        </footer>
+    </div>
+
+    
+</body>
+</html>
